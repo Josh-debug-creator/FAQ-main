@@ -1,0 +1,98 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: hsl(275, 100%, 97%);
+}
+.container{
+  background-image:url(../faq-accordion-main/assets/images/background-pattern-desktop.svg);
+  height: 200px;
+  width: 100%;
+  /* margin-top: -50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} 
+.answer{
+
+}
+
+.FAQ1{
+  background-color:  hsl(0, 0%, 100%);
+  border-radius: 20px;
+  height:1000px;
+  margin:auto;
+  width:90%;
+  margin: auto;
+  margin-top: 60px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 1px 3px;
+  
+}
+img{
+  height: 25px;
+vertical-align: middle;
+
+cursor: pointer;
+border: none;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo-img{
+margin-right: -10px;
+  
+  
+}
+h1{
+  font-size: 40px;
+  color: hsl(292, 42%, 14%);
+  text-align: left;
+  margin-left: 30px;
+}
+p{
+text-align: left;
+padding: 10px;
+font-size: 14px;
+width: 90%;
+}
+
+
+.question, .answer{
+margin: 15px auto;
+  font-size: 16px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+  
+}
+.display-none{
+  display: none;
+}
+
+
+/* Media Queries for smaller screen sizes */
+@media screen and  (min-width:768px){
+
+  .FAQ1{
+    height:1000px;
+    width:60%;
+    margin-top: 60px;
+  }
+  p{
+    font-size: 20px;
+ 
+    }
+}
